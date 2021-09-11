@@ -1,5 +1,5 @@
 #define a stack
-class StackExample:
+class StackExample():
     def __init__(self):
         #assign it to an empty list
         self.items = []
@@ -25,12 +25,12 @@ class StackExample:
         if self.is_empty() == False:
             return self.items[-1]
 
-example = StackExample()
-example.push(7)
+#example = StackExample()
+""" example.push(7)
 example.push("two")
 example.push("three")
 print(example.get_stack())
 example.pop()
 print(example.get_stack())
 print(example.is_empty())
-print(example.peek())
+print(example.peek()) """
