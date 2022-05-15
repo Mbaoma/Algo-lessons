@@ -1,0 +1,6 @@
+Flask==2.0.3
+Jinja2==3.0.3
+python-dotenv==0.19.2
+requests==2.27.1
+virtualenv==20.13.3
+flask-sqlalchemy
